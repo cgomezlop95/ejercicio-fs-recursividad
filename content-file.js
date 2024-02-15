@@ -1,3 +1,7 @@
+console.info("> folder 1");
+console.info("> sub folder 1");
+console.info("> folder 2");
+console.log("> ", [1, 2, 3, 4, 5]);
 //Muestra por pantalla el número de ficheros y directorios que hay en el árbol (No cuentes el fichero README.md)
 
 const { readdirSync, statSync, readFileSync, appendFileSync } = require("fs");
